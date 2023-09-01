@@ -1,0 +1,129 @@
+
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Global Styles */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #c7cdd3;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+
+    
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #111010;
+
+}
+
+.nav-links :hover {
+    border-bottom: 2px solid #111010;
+    
+
+}
+
+/* Hero Section */
+.maintext {
+    background-image: url('../img/barkafotozwerver.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Other Sections */
+.section {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.projects, .donate {
+    background-color: #f8f8f8;
+    background-image: url('../img/barkafotozwerver.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    background-color: #014890;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 1em;
+}
+
+.btn:hover {
+    background-color: #003c79;
+}
+
+.content {
+    padding: 0.5em 1em;
+    
+    
+}
+.project-card {
+    padding: 0.5em 1em;
+}
+
+.about {
+    background-color: #f8f8f8;
+    text-align: lef;
+    padding: 1em 5em 1em;
+    word-break: keep-all;
+}
+
+.videotext{
+    background-color: #003c79;
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    border-radius: 5px;
+    
+}
+
+
